@@ -1,6 +1,6 @@
 # Dockerfile for Tuya IPC Terminal Add-on
 ARG BUILD_FROM
-FROM golang:1.24-bookworm@sha256:7b25b1ea217e0a56060953b3d4859134ecbe757d7434f7ce4756e0c25aad1ef0 AS builder
+FROM golang:1.27-bookworm@sha256:ce59b41415e2524ae99926fe1f37ce48ba8c194dcbd2a56a65436cdcefa2bd34 AS builder
 
 # Set up environment
 ENV LANG=C.UTF-8
